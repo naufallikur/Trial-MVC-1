@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/css/site.css" rel="stylesheet"/>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+
+    <img src="~/images/error-status.png" class="logo" alt="logo" />
+
+    <img src="~/MyStaticFiles/download.png" alt="dummy" />
+
+    <h1>Welcome to book store application</h1>
+    <h1>Message Should be Updated</h1>
+    <h1>@DateTime.Now</h1>
+
+    <h1>Sum = @(3 + 5)</h1>
+
+    <hr />
+    <h1>Multiline</h1>
+
+    @{
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+    }
+
+    <h1>@c</h1>
+
+    <h2>My email = naufalasyamlikur@gmail.com</h2>
+    <h2>Twitter = @@Naufal</h2>
+
+    <p>This is the page of our book store application</p>
+</body>
+</html>
